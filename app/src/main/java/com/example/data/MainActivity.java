@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                suhu.setText(dataSnapshot.child("suhu").getValue().toString());
-                temp.setText(dataSnapshot.child("temperature").getValue().toString());
-                dev.setText(dataSnapshot.child("device/node").getValue().toString());
-
+                suhu.setText(dataSnapshot.child("SUHU").getValue().toString());
+                temp.setText(dataSnapshot.child("KELEMBABAN").getValue().toString());
+                dev.setText(dataSnapshot.child("DEVICE/NODE").getValue().toString());
+                                  
 
 
             }
