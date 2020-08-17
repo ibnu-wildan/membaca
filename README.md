@@ -1,0 +1,2 @@
+# membaca
+firebase read data
